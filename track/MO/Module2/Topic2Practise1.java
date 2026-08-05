@@ -1,5 +1,5 @@
 
-public class Topic2Practise {
+class Topic2Practise {
 
     public static void main(String[] args) {
         int marks = 72;
