@@ -5,7 +5,7 @@ class Program8{
             System.out.println(i);
             if(i==6)
             {
-                
+                break;
             }
         }
     }
