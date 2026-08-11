@@ -1,15 +1,17 @@
-class Program1{
+
+class Program1 {
+
     int roll;
     string name;
     double height;
-    void run()
-    {
+
+    void run() {
         System.out.println("running");
 
     }
-    void sleep()
-    {
+
+    void sleep() {
         System.out.println("Sleeping")
     }
-    
+
 }
