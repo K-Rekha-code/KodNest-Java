@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+ublic class Constructor6{
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        String title = scanner.nextLine();
+        String author = scanner.nextLine();
+
+        Book book = new Book(title, author);
+        book.display();
+    }
+}
+class Book {
+    String title;
+    String author;
+
+    Book(String title, String author) {
+        this.title = title;
+        this.author = author;
+    }
+
+    void display() {
+        System.out.println("Title: " + title);
+        System.out.println("Author: " + author);
+    }
+}
