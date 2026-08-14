@@ -1,5 +1,5 @@
  public class Shadowing{
-    Public static void main(String args[])
+    Public static void main(String args[]){
     Student s1=new Studen();
     
     s1.input("Raja",18,5.5);
