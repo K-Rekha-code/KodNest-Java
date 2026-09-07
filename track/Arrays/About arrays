@@ -1,0 +1,18 @@
+int a[]=new int[5];
+here 5 represents no.of coloumns of single row or 0th row
+a.length=5 means it gives size of no.of coloumns for i d array
+int a[][]=new int[3][5];
+here 3 represents no.of rows
+here 5 represents no.of coloumns
+a.length=3 means it gives no.of rows
+a[i].length=5 means it gives no.of coloumns for i th row or 0,1,2,3,4
+note a single row can call it as a block
+int a[][][]=new int[3][4][5];
+here 3 represents no.of blocks or no.of multiple rows
+so a.length=3 gives blocks
+here 4 represents no.of rows in a every single block
+we can find the row size or take from user like
+a[i].length=sc.nextInt();or a[i].length()=4;here i represents blocks index(0,1,2)
+here 5 represents no.of coloumns in a every single row
+we can find the coloumn size or take from user like
+a[i][j].length=sc.nextInt();ora[i][j].length()=5;here i represents blocks index and j represents row index  to get no.of coloumns of particular block and particular row
