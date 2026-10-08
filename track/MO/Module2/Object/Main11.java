@@ -1,3 +1,18 @@
+public class Main11 {
+
+    public static void main(String[] args) {
+        JavaDeveloper jd = new JavaDeveloper();
+        Main11.accessMethods(jd);
+        PythonDeveloper pd = new PythonDeveloper();
+        Main11.accessMethods(pd);
+
+    }
+
+    public static void accessMethods(Developer d) {
+        d.work();
+        d.project();
+    }
+}
 
 class Developer {
 
@@ -33,21 +48,5 @@ class PythonDeveloper extends Developer {
     @Override
     void work() {
         System.out.println("Working on python ");
-    }
-}
-
-public class Main11 {
-
-    public static void main(String[] args) {
-        JavaDeveloper jd = new JavaDeveloper();
-        Main11.accessMethods(jd);
-        PythonDeveloper pd = new PythonDeveloper();
-        Main11.accessMethods(pd);
-
-    }
-
-    public static void accessMethods(Developer d) {
-        d.work();
-        d.project();
     }
 }
